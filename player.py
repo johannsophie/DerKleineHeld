@@ -1,3 +1,11 @@
+"""
+player.py – Spieler-Logik (Erzeugung und Fortschritt).
+
+Stellt Funktionen bereit, um einen neuen Spieler mit Basis-Attributen
+zu erstellen und das Level-Up-System zu verwalten. Der Spieler wird als
+Dictionary repräsentiert, das Position, Kampfwerte und Fortschritt enthält.
+"""
+
 import random
 
 

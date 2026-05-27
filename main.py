@@ -1,3 +1,16 @@
+"""
+main.py – Einstiegspunkt und Game-Loop von "Der kleine Held".
+
+Initialisiert Pygame, erzeugt die erste Dungeon-Ebene und startet die
+Hauptschleife. Die Schleife verwaltet drei Spielzustände:
+  • map      – Erkundung des Labyrinths (Pfeiltasten)
+  • battle   – Rundenbasierter Kampf gegen ein Monster (Taste A)
+  • gameover – Neustart möglich (Taste R)
+
+Delegiert Spieler-Erzeugung, Kampf-Logik, Welt-Generierung und
+Rendering an die jeweiligen Module (player, battle, world, ui).
+"""
+
 import pygame
 import sys
 import random

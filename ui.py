@@ -1,3 +1,15 @@
+"""
+ui.py – Rendering / Darstellung aller Spielbildschirme.
+
+Enthält die Zeichen-Funktionen für die drei Spielzustände:
+  • Map-Ansicht   – Dungeon-Karte mit Spieler und Ebenenanzeige
+  • Battle-Ansicht – Kampf-UI mit HP-Anzeige und Battle-Log
+  • Game-Over      – Endbildschirm mit erreichter Ebene und Neustart-Hinweis
+
+Alle Funktionen erhalten das Pygame-Screen-Objekt und zeichnen
+direkt darauf; das eigentliche Display-Update erfolgt in main.py.
+"""
+
 import pygame
 
 
