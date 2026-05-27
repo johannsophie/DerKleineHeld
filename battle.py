@@ -1,3 +1,12 @@
+"""
+battle.py – Kampfsystem des Spiels.
+
+Verwaltet die gesamte Kampf-Logik: Erstellen von Monstern, deren
+Skalierung basierend auf der aktuellen Dungeon-Ebene, sowie die
+rundenbasierte Kampfmechanik (Spieler- und Monster-Angriffe,
+Schadensberechnung, Belohnungen und Level-Ups).
+"""
+
 import random
 
 

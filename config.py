@@ -1,4 +1,10 @@
-# config.py
+"""
+config.py – Zentrale Konfigurationskonstanten für das Spiel.
+
+Definiert Tile-Größe, Welt-Dimensionen, den sichtbaren Kartenausschnitt
+(Viewport) sowie die Höhe der UI-Leiste. Alle Bildschirmabmessungen
+werden aus diesen Grundwerten abgeleitet.
+"""
 
 # ---------- WELT ----------
 TILE_SIZE = 40

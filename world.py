@@ -1,3 +1,13 @@
+"""
+world.py – Dungeon-Generierung (prozedurales Labyrinth).
+
+Erzeugt pro Aufruf eine komplette Dungeon-Ebene als 2D-Grid.
+Das Labyrinth wird mit dem Recursive-Backtracker-Algorithmus gebaut,
+der zufällige, perfekte Labyrinthe garantiert (genau ein Weg zwischen
+je zwei Punkten). Zusätzlich werden Start- und Treppenfelder platziert.
+Enthält außerdem eine Debug-Funktion zur Terminal-Ausgabe der Karte.
+"""
+
 import random
 
 
@@ -5,17 +15,11 @@ import random
 # WORLD / DUNGEON GENERATION
 # ==========================================================
 #
-# Diese Datei ist dafür zuständig, eine neue Dungeon-Ebene
-# zu erzeugen.
-#
 # Jede Ebene besteht aus:
 # - Wänden ("wall")
 # - normalen begehbaren Feldern ("floor")
 # - einem Startfeld ("start")
 # - einer Treppe nach unten ("stairs_down")
-#
-# Der Dungeon wird automatisch als Labyrinth erzeugt.
-# Der Spieler startet immer in der Mitte.
 #
 # ==========================================================
 
